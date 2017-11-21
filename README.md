@@ -62,7 +62,7 @@ Multimap permite cargar un archivo JSON de configuración (nuevo mapa de Leaflet
 Dentro de las opciones de configuración es posible
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%configuracion.png
-![picture](fotos/configuracion.png)
+![picture](images/configuracion.png)
 
 Una vez se ha cargado un mapa es posible navegar por todas sus capas haciendo estas visibles o invisibles según sea necesario. Por defecto existen 4 capas: 
 
