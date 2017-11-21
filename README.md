@@ -22,11 +22,11 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
 
 #### Requeriments
 
-- [Nodejs] de forma nativa para poder instalar Extensiones.
+- [Nodejs](https://nodejs.org/es/download/) de forma nativa para poder instalar Extensiones.
 
-- La última versión de [Java] para ImageJExtension.
+- La última versión de [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) para ImageJExtension.
 
-- Node Package Manager ([npm]).
+- Node Package Manager ([npm](https://www.npmjs.com/)).
 
 
 ### Extensions
