@@ -42,7 +42,7 @@ Extensions already present
 
 
 
-####Installing extensions
+#### Installing extensions
 
 
 Existen dos formas de instalar extensiones:
@@ -52,7 +52,7 @@ Existen dos formas de instalar extensiones:
 - Descargando el módulo de npm si está publicado. Extensions > Install extension > Download npm module.
 
 
-####MapExtension
+#### MapExtension
 
 Multimap permite cargar un archivo JSON de configuración (nuevo mapa de Leaflet) que incluye diferntes capas de la imagen del cerebro que se va a analizar. La extensión MapExtension permite crear nuevos mapas, abrir un mapa existente, añadir capas nuevas, descargar, y opciones de configuración y 
 
@@ -78,7 +78,7 @@ Una vez se ha cargado un mapa es posible navegar por todas sus capas haciendo es
 
 También es posible seleccionar o deseleccionar los elementos y regiones según sea necesario haciendo click sobre su nombre en la lista.
 
-####ImageJExtension
+#### ImageJExtension
 
 ImageJExtension es una extensión de la herramienta original en Java que permite analizar y procesar imágenes pudiendo trabajar en distintos formatos. Permite además realizar diferentes cálculos sobre los pixeles de la imagen, creación de histogramas, detección de bordes, filtrado y otras funciones de procesamiento. [Es necesario tener instalada la herramienta original].
 
