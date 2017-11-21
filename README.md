@@ -69,10 +69,10 @@ Una vez se ha cargado un mapa es posible navegar por todas sus capas haciendo es
 
 ![picture](images/4layers.png)
 
-- Centroids: Centroides de la imagen.
-- Validation regions: regiones de control.
-- guide layer:  regiones en los que la imagen está segmentada.
-- drawinItems: en esta capa es posible crear dos tipos de objetos, regiones geométricas (polígonos, rectángulos, círculos) o marcadores, que sirven para acotar los puntos de una región específica y de cara a contar el número de centroides que hay dentro de una ragión.
+- **Centroids**: Centroides de la imagen.
+- **Validation regions**: regiones de control.
+- **guide layer**:  regiones en los que la imagen está segmentada.
+- **drawinItems**: en esta capa es posible crear dos tipos de objetos, regiones geométricas (polígonos, rectángulos, círculos) o marcadores, que sirven para acotar los puntos de una región específica y de cara a contar el número de centroides que hay dentro de una ragión.
 
 
 ![picture](images/regionandmarkers.png)
