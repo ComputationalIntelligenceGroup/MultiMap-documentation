@@ -56,24 +56,26 @@ Existen dos formas de instalar extensiones:
 
 Multimap permite cargar un archivo JSON de configuración (nuevo mapa de Leaflet) que incluye diferntes capas de la imagen del cerebro que se va a analizar. La extensión MapExtension permite crear nuevos mapas, abrir un mapa existente, añadir capas nuevas, descargar, y opciones de configuración.
 
-%%%%%%%%%%%%%%%%%%%%%%%%menu.png
 
+![picture](images/menumap.png)
 
 Dentro de las opciones de configuración es posible
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%configuracion.png
+
 ![picture](images/configuracion.png)
 
 Una vez se ha cargado un mapa es posible navegar por todas sus capas haciendo estas visibles o invisibles según sea necesario. Por defecto existen 4 capas: 
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%4layers.png
+
+![picture](images/4layers.png)
 
 - Centroids: Centroides de la imagen.
 - Validation regions: regiones de control.
 - guide layer:  regiones en los que la imagen está segmentada.
 - drawinItems: en esta capa es posible crear dos tipos de objetos, regiones geométricas (polígonos, rectángulos, círculos) o marcadores, que sirven para acotar los puntos de una región específica y de cara a contar el número de centroides que hay dentro de una ragión.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%regionandmarkers.png
+
+![picture](images/regionandmarkers.png)
 
 
 También es posible seleccionar o deseleccionar los elementos y regiones según sea necesario haciendo click sobre su nombre en la lista.
