@@ -47,9 +47,9 @@ Extensions already present
 
 Existen dos formas de instalar extensiones:
 
-- Cargando la extensión de forma local. Extensions > Install extension > Load local extension.
+- Cargando la extensión de forma local. **Extensions > Install extension > Load local extension**.
 
-- Descargando el módulo de npm si está publicado. Extensions > Install extension > Download npm module.
+- Descargando el módulo de npm si está publicado. **Extensions > Install extension > Download npm module**.
 
 
 #### MapExtension
@@ -80,7 +80,7 @@ También es posible seleccionar o deseleccionar los elementos y regiones según 
 
 #### ImageJExtension
 
-ImageJExtension es una extensión de la herramienta original en Java que permite analizar y procesar imágenes pudiendo trabajar en distintos formatos. Permite además realizar diferentes cálculos sobre los pixeles de la imagen, creación de histogramas, detección de bordes, filtrado y otras funciones de procesamiento. [Es necesario tener instalada la herramienta original].
+ImageJExtension es una extensión de la herramienta original en Java que permite analizar y procesar imágenes pudiendo trabajar en distintos formatos. Permite además realizar diferentes cálculos sobre los pixeles de la imagen, creación de histogramas, detección de bordes, filtrado y otras funciones de procesamiento. [Es necesario tener instalada la herramienta original](https://imagej.nih.gov/ij/download.html).
 
 
 
