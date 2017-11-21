@@ -54,7 +54,7 @@ Existen dos formas de instalar extensiones:
 
 #### MapExtension
 
-Multimap permite cargar un archivo JSON de configuración (nuevo mapa de Leaflet) que incluye diferntes capas de la imagen del cerebro que se va a analizar. La extensión MapExtension permite crear nuevos mapas, abrir un mapa existente, añadir capas nuevas, descargar, y opciones de configuración y 
+Multimap permite cargar un archivo JSON de configuración (nuevo mapa de Leaflet) que incluye diferntes capas de la imagen del cerebro que se va a analizar. La extensión MapExtension permite crear nuevos mapas, abrir un mapa existente, añadir capas nuevas, descargar, y opciones de configuración.
 
 %%%%%%%%%%%%%%%%%%%%%%%%menu.png
 
