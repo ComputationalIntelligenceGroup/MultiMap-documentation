@@ -26,21 +26,21 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
 
 - [Nodejs](https://nodejs.org/en/download/) natively to install Extensions.
 
- - Windows: Download and Install .msi file.
- - LINUX (DEB): ```sudo apt install -y nodejs```
+	- Windows: Download and Install .msi file.
+ 	- LINUX (DEB): ```sudo apt install -y nodejs```
 
 
 - The latest version of [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) for ImageJExtension.
 
- - Windows: Download and Install .exe file.
- - LINUX (DEB): ```sudo apt install -y nodejs```
+ 	- Windows: Download and Install .exe file.
+ 	- LINUX (DEB): ```sudo apt install default-jre```
 
 
 
 
 ### Extensions
 
-MultiMap is a modular tool which can be expanded through the development of different extensions that will increase the functionality of the program and allow loading those that are necessary at any time.
+MultiMap is a modular tool which can be expanded through diferent extensions. It uses [electrongui](https://github.com/gherardovarando/electrongui) framework to develop them.
 
 
 Extensions already present
