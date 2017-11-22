@@ -12,6 +12,8 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
 
 ### Install
 
+
+
 #### version
 
  - Windows:  [multimap.Setup.exe](https://github.com/ComputationalIntelligenceGroup/MultiMap/releases/download/v1.1.0/multimap.Setup.1.1.0.exe)
@@ -82,14 +84,25 @@ It is also possible to select or deselect the elements and regions as necessary 
 
 #### ImageJExtension
 
-ImageJExtension is an extension of the original Java tool that allows you to analyze and process images and work in different formats. It also allows to perform different calculations on image pixels, histogram creation, edge detection, filtering and other processing functions. [It is necessary to have the original tool installed](https://imagej.nih.gov/ij/download.html).
+ImageJExtension is an extension of the original Java tool that allows you to analyze, process images and work in different formats. It also allows to perform different calculations on image pixels, histogram creation, edge detection, filtering and other processing tasks. [It is necessary to have the original tool installed](https://imagej.nih.gov/ij/download.html).
+
+#### Install
+
+In order to use this extension it is necessary to configure ImageJ. It is possible to do it in several ways. The latest version of Multimap automatically detects if the extension has been installed and allows you to install all the necessary packages quickly. The following window will appear:
+
+![picture](images/quickinstall.png)
+
+In this way everything will be installed automatically, although it is possible to perform a manual installation selecting the path in **ImageJ > Configure imageJ > Settings** and install it this way: **ImageJ > Configure imageJ > Install ImageJ**. For an optimal behaviour is needed to install all plugins: **ImageJ > Configure imageJ > Download needed plugins**.
+
+
+ImageJextension adds a submenu to the application menu called "ImageJ". Six main tasks can be done:
 
 ![picture](images/imagejmenu.png)
 
-This extension adds a submenu to the application menu called "ImageJ". Six main tasks can be done:
 **1. Launch ImageJ**
 
 ImageJ user interface can be launched through "Launch ImageJ" menu entry. This tool can be useful for performing some preprocessing operations to prepare images for Atlas usage.
+
 **2. Configure ImageJ**
 
 ImageJ JVM memory settings (heap and stack) can be configured. By default, Java heap memory is set to 70% of total system memory, and Java stack memory is set to 515MB.
@@ -107,10 +120,10 @@ Map Tools is a toolbox for creating Atlas maps. This toolbox is an ImageJ plugin
     Output folder: the path where output map will be saved.
 
 With this toolbox, creating layers is also possible. The difference between a map and a layer is that a map contains a JSON configuration file with information about author, map name, and the different layers that make up the map. A map created with this tool will have only one layer. Adding new layers must be done modifying configuration file manually.
-**3.1. Map/Layer creation from image**
+**3.1. From image**
 
 When using this option, a dialog will be opened to choose source image, then previously defined parameters can be configured. When this task finishes, the map can be added to the workspace, or the layer can be added to a map in the workspace.
-**3.2. Map/Layer creation from folder**
+**3.2. From folder**
 
 This option is intended to create a map (or layer) from a big image which is splitted in a small collection of images. Each image name must contain its X and Y coordinates in the big image. For example, partial_image_X0_Y0.tiff will be the image in the left upper corner.
 
