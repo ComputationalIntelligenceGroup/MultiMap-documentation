@@ -31,7 +31,7 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
 
 ### Extensions
 
-Multimap es una herramienta modular la cual puede ir ampliándose mediante el desarrollo de diferentes extensiones que apliarán la funcionalidad del programa y permitirá cargar las que sean necesarias en cada momento.
+Multimap is a modular tool which can be expanded through the development of different extensions that will increase the functionality of the program and allow loading those that are necessary at any time.
 
 
 Extensions already present
@@ -45,44 +45,44 @@ Extensions already present
 #### Installing extensions
 
 
-Existen dos formas de instalar extensiones:
+There are two ways to install extensions:
 
-- Cargando la extensión de forma local. **Extensions > Install extension > Load local extension**.
+- Loading the extension locally. **Extensions > Install extension > Load local extension**.
 
-- Descargando el módulo de npm si está publicado. **Extensions > Install extension > Download npm module**.
+- Downloading the npm module if it is published. **Extensions > Install extension > Download npm module**.
 
 
 #### MapExtension
 
-Multimap permite cargar un archivo JSON de configuración (nuevo mapa de Leaflet) que incluye diferntes capas de la imagen del cerebro que se va a analizar. La extensión MapExtension permite crear nuevos mapas, abrir un mapa existente, añadir capas nuevas, descargar, y opciones de configuración.
+Multimap allows you to load a configuration JSON file (new Leaflet map) that includes different layers of the image of the brain to be analyzed. The MapExtension extension allows you to create new maps, open an existing map, add new layers, download, and configuration options.
 
 
 ![picture](images/menumap.png)
 
-Dentro de las opciones de configuración es posible
+Within the configuration options it is possible
 
 
 ![picture](images/configuracion.png)
 
-Una vez se ha cargado un mapa es posible navegar por todas sus capas haciendo estas visibles o invisibles según sea necesario. Por defecto existen 4 capas: 
+Once a map has been loaded it is possible to navigate through all its layers making them visible or invisible as necessary. By default there are 4 layers:
 
 
 ![picture](images/4layers.png)
 
-- **Centroids**: Centroides de la imagen.
-- **Validation regions**: regiones de control.
-- **guide layer**:  regiones en los que la imagen está segmentada.
-- **drawinItems**: en esta capa es posible crear dos tipos de objetos, regiones geométricas (polígonos, rectángulos, círculos) o marcadores, que sirven para acotar los puntos de una región específica y de cara a contar el número de centroides que hay dentro de una ragión.
+- **Centroids**: Centroids of the image.
+- **Validation regions**: control regions.
+- **guide layer**: regions in which the image is segmented.
+- **drawinItems**: in this layer it is possible to create two types of objects, geometric regions (polygons, rectangles, circles) or markers, which serve to delimit the points of a specific region and in order to count the number of centroids that there is within a ragión.
 
 
 ![picture](images/regionandmarkers.png)
 
 
-También es posible seleccionar o deseleccionar los elementos y regiones según sea necesario haciendo click sobre su nombre en la lista.
+It is also possible to select or deselect the elements and regions as necessary by clicking on their name in the list.
 
 #### ImageJExtension
 
-ImageJExtension es una extensión de la herramienta original en Java que permite analizar y procesar imágenes pudiendo trabajar en distintos formatos. Permite además realizar diferentes cálculos sobre los pixeles de la imagen, creación de histogramas, detección de bordes, filtrado y otras funciones de procesamiento. [Es necesario tener instalada la herramienta original](https://imagej.nih.gov/ij/download.html).
+ImageJExtension is an extension of the original Java tool that allows you to analyze and process images and work in different formats. It also allows to perform different calculations on image pixels, histogram creation, edge detection, filtering and other processing functions. [It is necessary to have the original tool installed](https://imagej.nih.gov/ij/download.html).
 
 
 
