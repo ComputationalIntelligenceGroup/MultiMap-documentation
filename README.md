@@ -24,16 +24,23 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
 
 #### Requeriments
 
-- [Nodejs] (https://nodejs.org/en/download/) natively to install Extensions.
+- [Nodejs](https://nodejs.org/en/download/) natively to install Extensions.
 
-- The latest version of [Java] (http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) for ImageJExtension.
+ - Windows: Download and Install .msi file.
+ - LINUX (DEB): ```sudo apt install -y nodejs```
 
-- Node Package Manager ([npm](https://www.npmjs.com/)).
+
+- The latest version of [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) for ImageJExtension.
+
+ - Windows: Download and Install .exe file.
+ - LINUX (DEB): ```sudo apt install -y nodejs```
+
+
 
 
 ### Extensions
 
-Multimap is a modular tool which can be expanded through the development of different extensions that will increase the functionality of the program and allow loading those that are necessary at any time.
+MultiMap is a modular tool which can be expanded through the development of different extensions that will increase the functionality of the program and allow loading those that are necessary at any time.
 
 
 Extensions already present
@@ -41,6 +48,10 @@ Extensions already present
 - [mapextension](http://github.com/gherardovarando/mapextension)
 
 - [imagejextension](http://github.com/gherardovarando/imagejextension)
+
+- [GraphicsMagickExtension](https://github.com/gherardovarando/GraphicsMagickExtension)
+
+- [BioFormatsExtension](https://github.com/gherardovarando/bioformatsextension)
 
 
 
@@ -61,7 +72,7 @@ Multimap allows you to load a configuration JSON file (new Leaflet map) that inc
 
 ![picture](images/menumap.png)
 
-Within the configuration options it is possible
+Within the configuration options it is possible to configure the following:
 
 
 ![picture](images/configuracion.png)
@@ -175,31 +186,3 @@ Each tile name will be the original image name plus its X and Y position, e.g. o
 
 
 
-
-### Founding
- This application is been developed by the Computational Intelligence Group (UPM) with the help of the Laboratorio Cajal de Circuitos Corticales (UPM/CSIC) with the economic support of the Spanish Ministerio de Economía y Competitividad through the Cajal Blue Brain Project( Spanish partner of the Blue Brain Project initiative from EPFL) and of the European Union through the Human Brain Project.
-
-
-### License
-
-The MIT License (MIT)
-
-Copyright (c) 2017 Gherardo Varando (gherardo.varando@gmail.com)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
