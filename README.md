@@ -27,13 +27,13 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
 - [Nodejs](https://nodejs.org/en/download/) natively to install Extensions.
 
 	- Windows: Download and Install .msi file.
- 	- LINUX (DEB): ```sudo apt install -y nodejs```
+ 	- LINUX: ```sudo apt install -y nodejs```
 
 
 - The latest version of [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) for ImageJExtension.
 
  	- Windows: Download and Install .exe file.
- 	- LINUX (DEB): ```sudo apt install default-jre```
+ 	- LINUX: ```sudo apt install default-jre```
 
 
 
@@ -76,11 +76,11 @@ Multimap allows you to load a configuration JSON file (new Leaflet map) that inc
 
 ![picture](images/menumap.png)
 
-	- 1 Map list.
-	- 2 Layers control.
-	- 3 Map main window.
-	- 4 Draw tools.
-	- 5 Region and markers list.
+- 1 Map list.
+- 2 Layers control.
+- 3 Map main window.
+- 4 Draw tools.
+- 5 Region and markers list.
 
 
 Within the configuration options it is possible to configure the following:
@@ -88,15 +88,11 @@ Within the configuration options it is possible to configure the following:
 
 ![picture](images/configuracion.png)
 
-Once a map has been loaded it is possible to navigate through all its layers making them visible or invisible as necessary. By default there are 4 layers:
+Once a map has been loaded it is possible to navigate through all its layers making them visible or invisible as necessary. In the following example we have 4 layers, but it is possible having more depending the kind of maps we are using.
 
 
 ![picture](images/4layers.png)
 
-- **Centroids**: Centroids of the image.
-- **Validation regions**: control regions.
-- **guide layer**: regions in which the image is segmented.
-- **drawinItems**: in this layer it is possible to create two types of objects, geometric regions (polygons, rectangles, circles) or markers, which serve to delimit the points of a specific region and in order to count the number of centroids that there is within a ragión.
 
 
 ![picture](images/regionandmarkers.png)
@@ -104,9 +100,14 @@ Once a map has been loaded it is possible to navigate through all its layers mak
 
 It is also possible to select or deselect the elements and regions as necessary by clicking on their name in the list.
 
+
+
 #### ImageJExtension
+[ImageJ](https://imagej.nih.gov/ij/index.html) is a public domain, Java-based image processing program developed at the National Institutes of Health. It was designed with an open architecture that provides extensibility via Java plugins and recordable macros. Analysis and processing plugins can be developed using ImageJ's built-in editor and a Java compiler. User-written plugins make it possible to solve many image processing and analysis problems.
 
 ImageJExtension is an extension of the original Java tool that allows you to analyze, process images and work in different formats. It also allows to perform different calculations on image pixels, histogram creation, edge detection, filtering and other processing tasks. [It is necessary to have the original tool installed](https://imagej.nih.gov/ij/download.html).
+
+
 
 #### Install
 
