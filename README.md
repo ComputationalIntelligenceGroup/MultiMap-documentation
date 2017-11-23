@@ -94,11 +94,22 @@ Once a map has been loaded it is possible to navigate through all its layers mak
 ![picture](images/4layers.png)
 
 
+It is possible to draw diferent kinds of geometric figures and put markers on the image
 
 ![picture](images/regionandmarkers.png)
 
 
 It is also possible to select or deselect the elements and regions as necessary by clicking on their name in the list.
+
+![picture](images/selecteditems.png)
+
+Clicking in the right buttton is possible to search by name, delete, rename or change the colour of the selected item
+
+![picture](images/rightbutton.png)
+
+In the side of the layers it is possible too, clicking right button, and appears the same options exceptins the colur.
+
+![picture](images/rightclicklayers.png)
 
 
 
