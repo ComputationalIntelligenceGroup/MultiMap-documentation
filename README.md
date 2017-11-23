@@ -57,12 +57,16 @@ Extensions already present
 
 #### Installing extensions
 
+In the latest version of the application, the first time the application is launched, the published extensions will be installed automatically and nothing else will have to be installed.
 
 There are two ways to install extensions:
 
-- Loading the extension locally. **Extensions > Install extension > Load local extension**.
+- Loading the extension locally. For this you have to load the .js file that contains the extension. **Extensions > Install extension > Load local extension**.
 
-- Downloading the npm module if it is published. **Extensions > Install extension > Download npm module**.
+- Downloading the npm module if it is published on npm. **Extensions > Install extension > Download npm module**.
+
+![picture](images/searchextension.png)
+
 
 
 #### MapExtension
@@ -71,6 +75,13 @@ Multimap allows you to load a configuration JSON file (new Leaflet map) that inc
 
 
 ![picture](images/menumap.png)
+
+	- 1 Map list.
+	- 2 Layers control.
+	- 3 Map main window.
+	- 4 Draw tools.
+	- 5 Region and markers list.
+
 
 Within the configuration options it is possible to configure the following:
 
