@@ -18,6 +18,10 @@ ImageJextension adds a submenu to the application menu called "ImageJ". Six main
 
 ![picture](images/imagejmenu.png)
 
+
+## Using extension
+
+
 **1. Launch ImageJ**
 
 ImageJ user interface can be launched through "Launch ImageJ" menu entry. This tool can be useful for performing some preprocessing operations to prepare images for Atlas usage.
