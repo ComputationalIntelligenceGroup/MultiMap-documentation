@@ -8,7 +8,7 @@
 
 ### Overview
 
-Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y procesado de imágenes del cerebro cuya función es la extracción de datos estadísticos de las mismas.
+Multimap is a tool designed in the CIG of the UPM for the viewing and processing of brain images whose function is the extraction of statistical data from them.
 
 ### Install
 
@@ -24,10 +24,10 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
 
 #### Requeriments
 
-- [Nodejs](https://nodejs.org/en/download/) natively to install Extensions.
+- [Nodejs](https://nodejs.org/en/download/) 8.9 or later.
 
 	- Windows: Download and Install .msi file.
- 	- LINUX: ```sudo apt install -y nodejs```
+ 	- [LINUX:](https://nodejs.org/en/download/package-manager/)
 
 
 - The latest version of [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) for ImageJExtension.
@@ -36,7 +36,18 @@ Multimap es una herramienta diseñada en el CIG de la UPM para el visionado y pr
  	- LINUX: ```sudo apt install default-jre```
 
 
+### Main menu
 
+We have the following headers: 
+
+![picture](images/headers.png)
+
+- 1 File: Working with the workspace. **New Workspace**, **Open Workspace**, **Save Workspace**, **Save Workspace as**, **Exit**. 
+- 2 Extensions, this tab opens the **Manager** to working with the extensions, allows you to install new extensions (locally or via npm) and activate/deactivate already installed extensions.
+- 3 MapExtension: 
+- 4 Developer tools: It launches an external window that shows the internal elements of the program and a console to execute commands.
+- 5 ImageJExtension: 
+- 6 Search bar, to find maps loaded at the moment.
 
 ### Extensions
 
