@@ -1,17 +1,17 @@
 
 - [Authors](#authors)
 
-- [Overview]
+- [Overview](#overview)
 
-- [Install]
+- [Install](#install)
 
-	- [version]
-	- [Requeriments]
+	- [version](#version)
+	- [Requeriments](#requeriments)
 
-- [Main menu]
+- [Main menu](#main-menu)
 
-- [Extensions]
-	- [Installing extensions]
+- [Extensions](#extensions)
+	- [Installing extensions](#installing-extensions)
 
 
 # MultiMap user guide

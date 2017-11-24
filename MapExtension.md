@@ -1,3 +1,14 @@
+
+- [MapExtension](#mapextension)
+
+	- [Installation](#installation)
+
+- [API](#api)
+	
+	- [Properties](#properties)
+	- [Methods](#methods)
+
+
 # MapExtension
 
 Multimap allows you to load a configuration JSON file (new Leaflet map) that includes different layers of the image of the brain to be analyzed. The MapExtension extension allows you to create new maps, open an existing map, add new layers, download, and configuration options.
