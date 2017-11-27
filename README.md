@@ -1,4 +1,3 @@
-
 - [Authors](#authors)
 
 - [Overview](#overview)
@@ -24,7 +23,7 @@
 
 ### Overview
 
-Multimap is a tool designed in the CIG of the UPM for the viewing and processing of brain images whose function is the extraction of statistical data from them.
+Multimap is a tool designed in the for the viewing and processing of brain images whose function is the extraction of statistical data from them.
 
 ### Install
 
@@ -43,7 +42,7 @@ Multimap is a tool designed in the CIG of the UPM for the viewing and processing
 - [Nodejs](https://nodejs.org/en/download/) 8.9 or later.
 
 	- Windows: Download and Install .msi file.
- 	- [LINUX:](https://nodejs.org/en/download/package-manager/)
+ 	- [LINUX](https://nodejs.org/en/download/package-manager/): Download from nodesource repository.
 
 
 - The latest version of [Java](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html) for ImageJExtension.
@@ -72,11 +71,11 @@ MultiMap is a modular tool which can be expanded through diferent extensions. It
 
 Extensions already present
 
-- [mapextension](http://github.com/gherardovarando/mapextension)
+- [mapextension](http://github.com/gherardovarando/mapextension): creating and viewing Maps. 
 
-- [imagejextension](http://github.com/gherardovarando/imagejextension)
+- [imagejextension](http://github.com/gherardovarando/imagejextension): processing images and extraction of parameters and objects.
 
-- [GraphicsMagickExtension](https://github.com/gherardovarando/GraphicsMagickExtension)
+- [GraphicsMagickExtension](https://github.com/gherardovarando/GraphicsMagickExtension): collection of tools and libraries which support reading, writing, and manipulating an image.
 
 - [BioFormatsExtension](https://github.com/gherardovarando/bioformatsextension)
 
@@ -95,5 +94,5 @@ There are two ways to install extensions:
 ![picture](images/searchextension.png)
 
 
-
+For more info: [Computational Intelligence Group](http://cig.fi.upm.es/), Universidad Politécnica de Madrid.
 

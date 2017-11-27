@@ -1,4 +1,3 @@
-
 - [MapExtension](#mapextension)
 
 	- [Installation](#installation)

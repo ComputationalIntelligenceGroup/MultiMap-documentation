@@ -1,4 +1,3 @@
-
 - [ImageJExtension](#imagejextension)
 	- [Install](#install)
 	- [Using extension](#using-extension)
@@ -30,7 +29,7 @@ ImageJextension adds a submenu to the application menu called "ImageJ". Six main
 
 **1. Launch ImageJ**
 
-ImageJ user interface can be launched through "Launch ImageJ" menu entry. This tool can be useful for performing some preprocessing operations to prepare images for Atlas usage.
+ImageJ user interface can be launched through "Launch ImageJ" menu entry. This tool can be useful for performing some preprocessing operations to prepare images for MultiMap usage.
 
 **2. Configure ImageJ**
 
@@ -38,7 +37,7 @@ ImageJ JVM memory settings (heap and stack) can be configured. By default, Java 
 
 **3. Create Tile layer**
 
-Map Tools is a toolbox for creating Atlas maps. This toolbox is an ImageJ plugin that requires an image or folder with images and the following parameters as input:
+Map Tools is a toolbox for creating MultiMap maps. This toolbox is an ImageJ plugin that requires an image or folder with images and the following parameters as input:
 
     Map name (default: "map").
     Pixel tiles dimension (default: 256).
@@ -56,7 +55,7 @@ When using this option, a dialog will be opened to choose source image, then pre
 
 This option is intended to create a map (or layer) from a big image which is splitted in a small collection of images. Each image name must contain its X and Y coordinates in the big image. For example, partial_image_X0_Y0.tiff will be the image in the left upper corner.
 
-When using this option, a dialog will be opened to choose the left upper corner image, then Atlas needs to combine all images and the user will be asked to configure previously defined parameters and three additional image combination parameters:
+When using this option, a dialog will be opened to choose the left upper corner image, then MultiMap needs to combine all images and the user will be asked to configure previously defined parameters and three additional image combination parameters:
 
     Initial slice (default: 1).
     Last slice (default: 1).
