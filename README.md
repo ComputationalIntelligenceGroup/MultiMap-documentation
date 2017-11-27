@@ -1,4 +1,5 @@
-- [Authors](#authors)
+# MultiMap user guide
+## v1.0.0- [Authors](#authors)
 
 - [Overview](#overview)
 
@@ -11,10 +12,6 @@
 
 - [Extensions](#extensions)
 	- [Installing extensions](#installing-extensions)
-
-
-# MultiMap user guide
-## v1.0.0
 
 
 ### Authors
