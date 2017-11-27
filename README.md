@@ -24,16 +24,11 @@
 
 Multimap is a tool designed in the for the viewing and processing of brain images whose function is the extraction of statistical data from them.
 
+
 ### Install
-
-
-
-#### version
 
  - Windows:  [multimap.Setup.exe](https://github.com/ComputationalIntelligenceGroup/MultiMap/releases/download/v1.1.0/multimap.Setup.1.1.0.exe)
  - LINUX (DEB): [multimap.deb](https://github.com/ComputationalIntelligenceGroup/MultiMap/releases/download/v1.1.0/multimap_1.1.0_amd64.deb)
-
-
 
 
 #### Requeriments
@@ -63,6 +58,7 @@ We have the following headers:
 - 5 ImageJExtension: executes [ImageJExtension](https://github.com/gherardovarando/imagejextension) The options are **Launch ImajeJ**, **Configure ImageJ**, **Create TileLayer**, **Object Detection**, **Holes Detection**, **Tools**.
 - 6 Search bar, to find maps loaded at the moment.
 
+
 ### Extensions
 
 MultiMap is a modular tool which can be expanded through diferent extensions. It uses [electrongui](https://github.com/gherardovarando/electrongui) framework to develop them.
@@ -77,7 +73,6 @@ Extensions already present
 - [GraphicsMagickExtension](https://github.com/gherardovarando/GraphicsMagickExtension): collection of tools and libraries which support reading, writing, and manipulating an image.
 
 - [BioFormatsExtension](https://github.com/gherardovarando/bioformatsextension)
-
 
 
 #### Installing extensions
