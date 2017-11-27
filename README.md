@@ -1,5 +1,7 @@
 # MultiMap user guide
-## v1.0.0- [Authors](#authors)
+## v1.0.0
+
+- [Authors](#authors)
 
 - [Overview](#overview)
 
