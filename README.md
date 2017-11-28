@@ -22,13 +22,6 @@
 
 - [MapExtension](MapExtension.md)
 
-	- [Install](MapExtension.md#install)
-
-- [API](#api)
-	
-	- [Properties](#properties)
-	- [Methods](#methods)
-
 - [ImageJExtension](ImajeJExtension.md)
 	- [Install](ImajeJExtension.md#install)
 	- [Using extension](ImajeJExtension.md#using-extension)
