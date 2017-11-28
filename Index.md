@@ -19,9 +19,9 @@
 
 - [MapExtension](MapExtension.md)
 
-- [ImageJExtension](ImajeJExtension.md)
-	- [Install](ImajeJExtension.md#install)
-	- [Using extension](ImajeJExtension.md#using-extension)
+- [ImageJExtension](ImageJExtension.md)
+	- [Install](ImageJExtension.md#install)
+	- [Using extension](ImageJExtension.md#using-extension)
 
 
 
