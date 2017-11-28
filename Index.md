@@ -6,12 +6,14 @@
 - [Overview](#overview)
 
 - [Install](#install)
-	- [Requeriments](#requeriments)
+
+- [Requeriments](#requeriments)
 
 - [Main menu](#main-menu)
 
 - [Extensions](#extensions)
-	- [Installing extensions](#installing-extensions)
+
+- [Installing extensions](#installing-extensions)
 
 
 - [MapExtension](#mapextension)
