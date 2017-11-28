@@ -8,8 +8,6 @@
 
 - [Overview](Overview.md)
 
-- [Basics](Basics.md)
-
 - [Install](Install.md)
 
 - [Requirements](Requirements.md)
