@@ -5,7 +5,7 @@ A complete view of the main window is shown here:
 
 ![picture](images/mainmenu.png)
 
-To see and work with the maps, the Javascript library of interactive maps [Leaflet] (http://leafletjs.com/) is used.
+To see and work with the maps, the Javascript library of interactive maps [Leaflet](http://leafletjs.com/) is used.
 
 We have the following headers: 
 
