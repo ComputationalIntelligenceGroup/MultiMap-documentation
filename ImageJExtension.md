@@ -1,9 +1,5 @@
 # ImageJExtension
 
-- [ImageJExtension](#imagejextension)
-	- [Install](#install)
-	- [Using extension](#using-extension)
-
 
 [ImageJ](https://imagej.nih.gov/ij/index.html) is a public domain, Java-based image processing program developed at the National Institutes of Health. It was designed with an open architecture that provides extensibility via Java plugins and recordable macros. Analysis and processing plugins can be developed using ImageJ's built-in editor and a Java compiler. User-written plugins make it possible to solve many image processing and analysis problems.
 
