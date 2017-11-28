@@ -1,4 +1,4 @@
-#### Requeriments
+#### Requirements
 
 - [Nodejs](https://nodejs.org/en/download/) 8.9 or later.
 
