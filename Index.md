@@ -15,7 +15,7 @@
 
 - [Extensions](https://github.com/cahernanz/MultiMap-documentation/blob/master/Extensions.md)
 
-- [Installing extensions](https://github.com/cahernanz/MultiMap-documentation/blob/master/Installing extensions.md)
+- [Installing extensions](Installing extensions.md)
 
 
 - [MapExtension](https://github.com/cahernanz/MultiMap-documentation/blob/master/MapExtension.md)
