@@ -1,37 +1,34 @@
 # Index
 
 
-- [Authors](https://github.com/cahernanz/MultiMap-documentation/blob/master/Authors.md)
+- [Authors](Authors.md)
 
-- [Overview](https://github.com/cahernanz/MultiMap-documentation/blob/master/Overview.md)
+- [Overview](Overview.md)
 
-- [Basics](https://github.com/cahernanz/MultiMap-documentation/blob/master/Basics.md)
+- [Basics](Basics.md)
 
-- [Install](https://github.com/cahernanz/MultiMap-documentation/blob/master/Install.md)
+- [Install](Install.md)
 
-- [Requirements](https://github.com/cahernanz/MultiMap-documentation/blob/master/Requirements.md)
+- [Requirements](Requirements.md)
 
-- [Main menu](https://github.com/cahernanz/MultiMap-documentation/blob/master/Main menu.md)
+- [Main menu](Main-menu.md)
 
-- [Extensions](https://github.com/cahernanz/MultiMap-documentation/blob/master/Extensions.md)
+- [Extensions](Extensions.md)
 
-- [Installing extensions](Installing extensions.md)
+- [Installing extensions](Installing-extensions.md)
 
+- [MapExtension](MapExtension.md)
 
-- [MapExtension](https://github.com/cahernanz/MultiMap-documentation/blob/master/MapExtension.md)
-
-	- [Install](https://github.com/cahernanz/MultiMap-documentation/blob/master/MapExtension.md#install)
+	- [Install](MapExtension.md#install)
 
 - [API](#api)
 	
 	- [Properties](#properties)
 	- [Methods](#methods)
 
-
-
-- [ImageJExtension](https://github.com/cahernanz/MultiMap-documentation/blob/master/ImajeJExtension.md)
-	- [Install](https://github.com/cahernanz/MultiMap-documentation/blob/master/ImajeJExtension.md#install)
-	- [Using extension](https://github.com/cahernanz/MultiMap-documentation/blob/master/ImajeJExtension.md#using-extension)
+- [ImageJExtension](ImajeJExtension.md)
+	- [Install](ImajeJExtension.md#install)
+	- [Using extension](ImajeJExtension.md#using-extension)
 
 
 
