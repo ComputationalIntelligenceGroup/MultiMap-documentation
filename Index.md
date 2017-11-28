@@ -5,6 +5,8 @@
 
 - [Overview](#overview)
 
+- [Basics](#basics)
+
 - [Install](#install)
 
 - [Requeriments](#requeriments)
@@ -18,7 +20,7 @@
 
 - [MapExtension](#mapextension)
 
-	- [Installation](#installation)
+	- [Install](#installation)
 
 - [API](#api)
 	

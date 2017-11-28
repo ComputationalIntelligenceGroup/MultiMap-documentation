@@ -7,8 +7,7 @@
 
 - [Install](#install)
 
-	- [version](#version)
-	- [Requeriments](#requeriments)
+- [Requeriments](#requeriments)
 
 - [Main menu](#main-menu)
 
