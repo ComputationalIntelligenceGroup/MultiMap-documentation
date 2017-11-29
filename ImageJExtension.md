@@ -45,9 +45,11 @@ Map Tools is a toolbox for creating MultiMap maps. This toolbox is an ImageJ plu
     Output folder: the path where output map will be saved.
 
 With this toolbox, creating layers is also possible. The difference between a map and a layer is that a map contains a JSON configuration file with information about author, map name, and the different layers that make up the map. A map created with this tool will have only one layer. Adding new layers must be done modifying configuration file manually.
+
 **3.1. From image**
 
 When using this option, a dialog will be opened to choose source image, then previously defined parameters can be configured. When this task finishes, the map can be added to the workspace, or the layer can be added to a map in the workspace.
+
 **3.2. From folder**
 
 This option is intended to create a map (or layer) from a big image which is splitted in a small collection of images. Each image name must contain its X and Y coordinates in the big image. For example, partial_image_X0_Y0.tiff will be the image in the left upper corner.
@@ -59,6 +61,7 @@ When using this option, a dialog will be opened to choose the left upper corner 
     Scale (default: 1.000): the combined image scale, this parameter goes from 0 to 1 (original size).
 
 When this task finishes, the map can be added to the workspace, or the layer can be added to a map in the workspace.
+
 **4. Object Detection**
 
 Object detection is a tool for detecting objects in an image. For this purpose, obj_detection ImageJ plugin is used, which calculates object centroids using image segmentation techniques. This extension allows to detect objects from a single image, from a folder with many images, or from a list of images, In all cases, following parameters can be configured:
@@ -74,6 +77,7 @@ Object detection is a tool for detecting objects in an image. For this purpose, 
     Output folder: the path where detected objects data will be saved, usually the folder with the map of the image being processed is used.
 
 When this task finishes, the layer with detected objects data (called points layer) can be added to a map in the workspace.
+
 **5. Holes Detection**
 
 Holes detection is a tool for detecting holes in an image. For this purpose, obj_detection ImageJ plugin is used, which calculates holes using median filtering and thresholding. This extension allows to detect holes from a single image, from a folder with many images, or from a list of images, In all cases, following parameters can be configured:
@@ -83,6 +87,7 @@ Holes detection is a tool for detecting holes in an image. For this purpose, obj
     Output folder: the path where detected holes data will be saved, usually the folder with the map of the image being processed is used.
 
 When this task finishes, the layer with detected holes data (called pixels layer) can be added to a map in the workspace.
+
 **6. Mosaic creation**
 
 This tool is located inside "Tools" submenu, it allows to divide a big image into small parts (tiles). The following parameters must be configured:
