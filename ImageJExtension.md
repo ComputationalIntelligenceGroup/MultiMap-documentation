@@ -80,7 +80,7 @@ When this task finishes, the layer with detected objects data (called points lay
 
 When image has some objects to detect, they will be shown this way:
 
-![picture](images/objects_blobs.tif)
+![picture](images/objects_blobs.png)
 
 **5. Holes Detection**
 
