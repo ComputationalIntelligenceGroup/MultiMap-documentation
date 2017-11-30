@@ -101,5 +101,9 @@ This tool is located inside "Tools" submenu, it allows to divide a big image int
 
 Each tile name will be the original image name plus its X and Y position, e.g. original_image_X0_Y0.tif usually will be the upper left corner tile.
 
+The result of creating a mosaic with an image is shown in the following image:
 
+![picture](images/mosaic.png)
+
+Some ImageJ task have problems with files names or folder names with spaces. In order to avoid errors using ImageJExtension is better to use folder and filenames without spaces.
 
