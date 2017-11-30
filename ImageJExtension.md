@@ -23,6 +23,7 @@ ImageJextension adds a submenu to the application menu called "ImageJ". Six main
 
 ## Using extension
 
+Some ImageJ task have problems with files names or folder names with spaces. In order to avoid errors using ImageJExtension is better to use folder and filenames without spaces.
 
 **1. Launch ImageJ**
 
@@ -112,6 +113,4 @@ Each tile name will be the original image name plus its X and Y position, e.g. o
 The result of creating a mosaic with an image is shown in the following image:
 
 ![picture](images/mosaic.png)
-
-Some ImageJ task have problems with files names or folder names with spaces. In order to avoid errors using ImageJExtension is better to use folder and filenames without spaces.
 
