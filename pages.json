@@ -1,0 +1,47 @@
+{
+    "pages":[ {
+        "id": "Authors",
+        "title": "Authors",
+        "file": "Authorst.md"
+    },
+    {
+        "id":"Overview",
+        "title": "Overview",
+        "file": "Overview.md"
+    },
+  {
+    "id": "Install",
+    "title": "Install",
+    "file": "Install.md"
+    },
+    {
+      "id": "Requirements",
+      "title": "Requirements",
+      "file": "Requirements.md"
+    },
+    {
+      "id": "Main-menu",
+      "title": "Main menu",
+      "file": "Main-menu.md"
+    },
+    {
+      "id": "Extensions",
+      "title": "Extensions",
+      "file": "Extensions.md"
+      },
+  {
+    "id": "Installing-extensions",
+    "title": "Installing extensions",
+    "file": "Installing-extensions.md"
+    },
+    {
+      "id": "MapExtension",
+      "title": "MapExtension",
+      "file": "MapExtension.md"
+      },
+      {
+        "id": "ImageJExtension",
+        "title": "ImageJExtension",
+        "file": "ImageJExtension.md"
+        } ]
+}
