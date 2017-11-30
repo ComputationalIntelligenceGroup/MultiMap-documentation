@@ -1,52 +1,57 @@
 {
-    "pages":[ {
-        "id": "Authors",
-        "title": "Authors",
-        "file": "Authorst.md",
-        "icon": "icon icon-pencil"
+  "pages": [{
+      "id": "Authors",
+      "title": "Authors",
+      "file": "Authorst.md",
+      "icon": "fa fa-pencil"
     },
     {
-        "id":"Overview",
-        "title": "Overview",
-        "file": "Overview.md"
+      "id": "Overview",
+      "title": "Overview",
+      "file": "Overview.md",
+      "icon": "fa fa-font"
     },
-  {
-    "id": "Install",
-    "title": "Install",
-    "file": "Install.md",
-    "icon": "icon icon-laptop"
+    {
+      "id": "Install",
+      "title": "Install",
+      "file": "Install.md",
+      "icon": "fa fa-laptop"
     },
     {
       "id": "Requirements",
       "title": "Requirements",
-      "file": "Requirements.md"
+      "file": "Requirements.md",
+      "icon": "fa fa-check-square-o"
     },
     {
       "id": "Main-menu",
       "title": "Main menu",
-      "file": "Main-menu.md"
+      "file": "Main-menu.md",
+      "icon": "fa fa-th-list"
     },
     {
       "id": "Extensions",
       "title": "Extensions",
       "file": "Extensions.md",
-      "icon": "icon icon-arrows-v"
-      },
-  {
-    "id": "Installing-extensions",
-    "title": "Installing extensions",
-    "file": "Installing-extensions.md"
+      "icon": "fa fa-arrows-v"
+    },
+    {
+      "id": "Installing-extensions",
+      "title": "Installing extensions",
+      "file": "Installing-extensions.md",
+      "icon": "fa fa-floppy-o"
     },
     {
       "id": "MapExtension",
       "title": "MapExtension",
       "file": "MapExtension.md",
-      "icon": "icon icon-map"
-      },
-      {
-        "id": "ImageJExtension",
-        "title": "ImageJExtension",
-        "file": "ImageJExtension.md",
-        "icon": "icon icon-file-image-o"
-        } ]
+      "icon": "fa fa-map"
+    },
+    {
+      "id": "ImageJExtension",
+      "title": "ImageJExtension",
+      "file": "ImageJExtension.md",
+      "icon": "fa fa-file-image-o"
+    }
+  ]
 }
