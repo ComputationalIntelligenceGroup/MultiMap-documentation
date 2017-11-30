@@ -78,6 +78,10 @@ Object detection is a tool for detecting objects in an image. For this purpose, 
 
 When this task finishes, the layer with detected objects data (called points layer) can be added to a map in the workspace.
 
+When image has some objects to detect, they will be shown this way:
+
+![picture](images/objects_blobs.tif)
+
 **5. Holes Detection**
 
 Holes detection is a tool for detecting holes in an image. For this purpose, obj_detection ImageJ plugin is used, which calculates holes using median filtering and thresholding. This extension allows to detect holes from a single image, from a folder with many images, or from a list of images, In all cases, following parameters can be configured:
@@ -87,6 +91,10 @@ Holes detection is a tool for detecting holes in an image. For this purpose, obj
     Output folder: the path where detected holes data will be saved, usually the folder with the map of the image being processed is used.
 
 When this task finishes, the layer with detected holes data (called pixels layer) can be added to a map in the workspace.
+
+An example of holes detection is shown here:
+
+![picture](images/holes.png)
 
 **6. Mosaic creation**
 
