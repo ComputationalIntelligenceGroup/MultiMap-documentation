@@ -2,7 +2,8 @@
     "pages":[ {
         "id": "Authors",
         "title": "Authors",
-        "file": "Authorst.md"
+        "file": "Authorst.md",
+        "icon": "icon icon-pencil"
     },
     {
         "id":"Overview",
@@ -12,7 +13,8 @@
   {
     "id": "Install",
     "title": "Install",
-    "file": "Install.md"
+    "file": "Install.md",
+    "icon": "icon icon-laptop"
     },
     {
       "id": "Requirements",
@@ -27,7 +29,8 @@
     {
       "id": "Extensions",
       "title": "Extensions",
-      "file": "Extensions.md"
+      "file": "Extensions.md",
+      "icon": "icon icon-arrows-v"
       },
   {
     "id": "Installing-extensions",
@@ -37,11 +40,13 @@
     {
       "id": "MapExtension",
       "title": "MapExtension",
-      "file": "MapExtension.md"
+      "file": "MapExtension.md",
+      "icon": "icon icon-map"
       },
       {
         "id": "ImageJExtension",
         "title": "ImageJExtension",
-        "file": "ImageJExtension.md"
+        "file": "ImageJExtension.md",
+        "icon": "icon icon-file-image-o"
         } ]
 }
