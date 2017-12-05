@@ -24,3 +24,4 @@
 	- [Install](ImageJExtension.md#install)
 	- [Using extension](ImageJExtension.md#using-extension)
 
+- [Acknowledgements](Acknowledgements.md)
