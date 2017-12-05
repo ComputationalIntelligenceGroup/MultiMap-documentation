@@ -7,5 +7,6 @@ This work has been partially supported by the Spanish Ministry of Economy, Indus
 
 
 ![picture](images/hbp-logo.png)
-![picture](images/logo_cajalbbp_sublogo.png)
+![image](images/cajal-logo.png)
+
 ![picture](images/logo_upm.png)
