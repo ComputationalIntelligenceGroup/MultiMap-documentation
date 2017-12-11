@@ -7,8 +7,6 @@ A complete view of the main window without any extension is shown here:
 
 We have the following headers in the basic version of the program: 
 
-![picture](images/headers.png)
-
 - File: working with the workspace. 
 
 ![picture](images/menufile.png)
