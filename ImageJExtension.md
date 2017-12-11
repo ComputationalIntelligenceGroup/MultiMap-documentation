@@ -16,7 +16,7 @@ In order to use this extension it is necessary to configure ImageJ. It is possib
 In this way everything will be installed automatically, although it is possible to perform a manual installation selecting the path in **ImageJ > Configure imageJ > Settings** and install it this way: **ImageJ > Configure imageJ > Install ImageJ**. For an optimal behaviour is needed to install all plugins: **ImageJ > Configure imageJ > Download needed plugins**.
 
 
-ImageJextension adds a submenu to the application menu called "ImageJ". Six main tasks can be done:
+ImageJextension adds a submenu to the application menu called "ImageJ". Six main submenu are present:
 
 ![picture](images/imagejmenu.png)
 
