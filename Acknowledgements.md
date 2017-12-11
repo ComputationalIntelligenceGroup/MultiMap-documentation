@@ -8,3 +8,9 @@ This work has been partially supported by the Spanish Ministry of Economy, Indus
 ![cajal-logo](images/cajal-logo.png)
 
 ![upm-logo](images/logo_upm.png)
+
+
+### Contributors
+
+- [Mario Juez](https://github.com/mjuez) contributed to ImageJExtension code and partly to electrongui code.
+- [Carlos Hernanz](https://github.com/cahernanz) partly contributed to the users manual.
