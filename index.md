@@ -1,5 +1,5 @@
 
-## Getting started
+### Getting started
 
 - ##### [Overview](Overview.md)
 
@@ -7,7 +7,7 @@
 
 - ##### [Basics](Basics.md)
 
-## Using MultiMap
+### Using MultiMap
 
 - ##### [Main menu](Main-menu.md)
 
@@ -27,7 +27,7 @@
  - ###### [Mosaic](ImageJExtension.md#mosaic)
  - ###### [Issues](ImageJExtension.md#issues)
 
-## Extending MultiMap
+### Extending MultiMap
 
 - ##### [My First Extension](myfirstextension.md)
 - ##### []
@@ -35,6 +35,6 @@
 
 
 
-## About
+### About
 - ##### [Authors](Authors.md)
 - ##### [Acknowledgements](Acknowledgements.md)
