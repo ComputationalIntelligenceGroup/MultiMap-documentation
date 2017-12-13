@@ -1,19 +1,17 @@
 
 ### Getting started
 
-- ##### [Overview](Overview.md)
+- ##### [Overview](overview.md)
 
-- ##### [Install](Install.md)
+- ##### [Install](install.md)
 
-- ##### [Basics](Basics.md)
+- ##### [Basics](basics.md)
 
 ### Using MultiMap
 
-- ##### [Main menu](Main-menu.md)
+- ##### [Main menu](main-menu.md)
 
-- ##### [Extensions](Extensions.md)
-
-- ##### [Installing extensions](Installing-extensions.md)
+- ##### [Extensions](extensions.md)
 
 - ##### [The Map Extension](MapExtension.md)
   - ###### [The Map Extension](MapExtension.md#)
