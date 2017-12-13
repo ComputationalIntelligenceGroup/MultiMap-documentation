@@ -13,10 +13,10 @@
 
 - ##### [Extensions](extensions.md)
 
-- ##### [The Map Extension](MapExtension.md)
+### [The Map Extension](MapExtension.md)
   - ###### [The Map Extension](MapExtension.md#)
 
-- ##### [The ImageJ Extension](ImageJExtension.md)
+### [The ImageJ Extension](ImageJExtension.md)
   - ###### [Install](ImageJExtension.md#install)
   - ###### [Configure](ImageJExtension.md#configure)
   - ###### [Create Tile Layer](ImageJExtension.md#create-tile-layer)
