@@ -25,15 +25,15 @@ If options 2 or 3 are used it is suggested to install the needed plugins with th
 
 Some ImageJ task have problems with files names or folder names with spaces. In order to avoid errors using ImageJExtension is better to use folder and filenames without spaces.
 
-**1. Launch ImageJ**
+### Launch ImageJ
 
 ImageJ user interface can be launched through "Launch ImageJ" menu entry. This tool can be useful for performing some preprocessing operations to prepare images for MultiMap usage.
 
-**2. Configure ImageJ**
+### Configure
 
 ImageJ JVM memory settings (heap and stack) can be configured. By default, Java heap memory is set to 70% of total system memory, and Java stack memory is set to 515MB.
 
-**3. Create Tile layer**
+### Create Tile Layer
 
 Map Tools is a toolbox for creating MultiMap maps. This toolbox is an ImageJ plugin that requires an image or folder with images and the following parameters as input:
 
@@ -47,11 +47,11 @@ Map Tools is a toolbox for creating MultiMap maps. This toolbox is an ImageJ plu
 
 With this toolbox, creating layers is also possible. The difference between a map and a layer is that a map contains a JSON configuration file with information about author, map name, and the different layers that make up the map. A map created with this tool will have only one layer. Adding new layers must be done modifying configuration file manually.
 
-**3.1. From image**
+#### From image
 
 When using this option, a dialog will be opened to choose source image, then previously defined parameters can be configured. When this task finishes, the map can be added to the workspace, or the layer can be added to a map in the workspace.
 
-**3.2. From folder**
+#### From folder
 
 This option is intended to create a map (or layer) from a big image which is splitted in a small collection of images. Each image name must contain its X and Y coordinates in the big image. For example, partial_image_X0_Y0.tiff will be the image in the left upper corner.
 
@@ -63,7 +63,7 @@ When using this option, a dialog will be opened to choose the left upper corner 
 
 When this task finishes, the map can be added to the workspace, or the layer can be added to a map in the workspace.
 
-**4. Object Detection**
+### Object Detection
 
 Object detection is a tool for detecting objects in an image. For this purpose, obj_detection ImageJ plugin is used, which calculates object centroids using image segmentation techniques. This extension allows to detect objects from a single image, from a folder with many images, or from a list of images, In all cases, following parameters can be configured:
 
@@ -83,7 +83,7 @@ When image has some objects to detect, they will be shown this way:
 
 ![picture](images/objects_blobs.png)
 
-**5. Holes Detection**
+### Holes Detection
 
 Holes detection is a tool for detecting holes in an image. For this purpose, obj_detection ImageJ plugin is used, which calculates holes using median filtering and thresholding. This extension allows to detect holes from a single image, from a folder with many images, or from a list of images, In all cases, following parameters can be configured:
 
@@ -97,7 +97,7 @@ An example of holes detection is shown here:
 
 ![picture](images/holes.png)
 
-**6. Mosaic creation**
+### Mosaic
 
 This tool is located inside "Tools" submenu, it allows to divide a big image into small parts (tiles). The following parameters must be configured:
 
