@@ -29,10 +29,10 @@
 
 ## Extending MultiMap
 
-- [My First Extension](myfirstextension.md)
-- [electrongui API](https://gherardovarando.github.io/electrongui/API.html)
+- ##### [My First Extension](myfirstextension.md)
+- ##### [electrongui API](https://gherardovarando.github.io/electrongui/API.html)
 
 
 
 ## About
-- [Authors](Authors.md)
+- ##### [Authors](Authors.md)
