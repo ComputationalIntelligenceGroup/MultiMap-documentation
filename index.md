@@ -15,13 +15,13 @@
 
 - ##### [Installing extensions](Installing-extensions.md)
 
-- ##### The Map Extension
- - ###### [MapExtension](MapExtension.md)
+- ##### [The Map Extension](MapExtension.md)
+  - ###### [The Map Extension](MapExtension.md#)
 
-- ##### The ImageJ Extension
-  - ###### [ImageJExtension](ImageJExtension.md)
+- ##### [The ImageJ Extension](ImageJExtension.md)
   - ###### [Install](ImageJExtension.md#install)
   - ###### [Using extension](ImageJExtension.md#using-extension)
+	- ###### [Issues](ImageJExtension.md#issues)
 
 ## Extending MultiMap
 

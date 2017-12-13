@@ -1,27 +1,27 @@
 # ImageJExtension
 
-
 [ImageJ](https://imagej.nih.gov/ij/index.html) is a public domain, Java-based image processing program developed at the National Institutes of Health. It was designed with an open architecture that provides extensibility via Java plugins and recordable macros. Analysis and processing plugins can be developed using ImageJ's built-in editor and a Java compiler. User-written plugins make it possible to solve many image processing and analysis problems.
 
-ImageJExtension is an extension of the original Java tool that allows you to analyze, process images and work in different formats. It also allows to perform different calculations on image pixels, histogram creation, edge detection, filtering and other processing tasks. [It is necessary to have the original tool installed](https://imagej.nih.gov/ij/download.html).
-
+ImageJExtension is a MultiMap extension that connects MultiMap to an ImageJ installation, allowing some image processing tasks directly from MultiMap.
 
 
 ## Install
 
-In order to use this extension it is necessary to configure ImageJ. It is possible to do it in several ways. The latest version of Multimap automatically detects if the extension has been installed and allows you to install all the necessary packages quickly. The following window will appear:
+When the extension is activated it automatically check if it is linked to an ImageJ installation, if not the user will be warned and three options to link ImageJ will be given:
+1. **Quick Auto-Install** (recommended if you don't know what we are talking about), this options automatically download ImageJ and some needed plugins.
+2. **Manual** the user can manually select the path to the ImageJ installation.
+3. **Later** the user can dismiss the alert and from the ImageJ menu, select the configure ImageJ sub-menu and then install ImageJ, the user will be asked to select a destination folder where ImageJ will be installed.
+
+If options 2 or 3 are used it is suggested to install the needed plugins with the appropriate action in the configure ImageJ menu.
+
 
 ![picture](images/quickinstall.png)
 
-In this way everything will be installed automatically, although it is possible to perform a manual installation selecting the path in **ImageJ > Configure imageJ > Settings** and install it this way: **ImageJ > Configure imageJ > Install ImageJ**. For an optimal behaviour is needed to install all plugins: **ImageJ > Configure imageJ > Download needed plugins**.
-
-
-ImageJextension adds a submenu to the application menu called "ImageJ". Six main submenu are present:
 
 ![picture](images/imagejmenu.png)
 
 
-## Using extension
+## Using the extension
 
 Some ImageJ task have problems with files names or folder names with spaces. In order to avoid errors using ImageJExtension is better to use folder and filenames without spaces.
 
@@ -114,3 +114,4 @@ The result of creating a mosaic with an image is shown in the following image:
 
 ![picture](images/mosaic.png)
 
+## Issues
