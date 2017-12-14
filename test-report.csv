@@ -1,35 +1,33 @@
-,Linux,Windows
- load extensions manually,ok,
- load extensions (npm),ok,
-add layers,ok,
-Show /hide layers,ok,
-"draw/delete all elements (polygons, polylines, markers….)",ok,
-zooming,ok,
-"right clicks in layers, objects and maps",ok,
-menu buttons,ok,
-mapextension,ok,
-reload map,ok,
-expert mode,ok,
-load map,ok,
-create map,ok,
-dev tools,ok,
-export map,ok,
-launch imageJ,ok,
-"Configure, download and install plugins automatically",ok,
-Tile layer,ok,
-Objects detection,ok,
-Holes detection,ok,
-create mosaic,ok,
-convert,ok,
-,,
-,,
-,,
-,,
-ISSUES LINUX,,
-"- Sometimes at the moment of drawing an element it gets stuck, drawing infinite polygons and it is necessary to press the ""cancel"" button. Then, when selecting an item, it is not visible on the map. An attempt was made to select and deselect the Drawnitems layer without success. It is not solved by reloading the map or restarting the program.",,
-- After that problem Cant view figures even if restart the program. ,,
-- Edit layers button stuck,,
-- Problems to hide markers,,
-- Necessary to delete hidden folder .multimap if ImageJ doesnt respond,,
-- bmp formats doesn work,,
-- Sometimes fails adding new layer from image,,
+﻿;Linux;Windows
+ load extensions manually;ok;ok
+ load extensions (npm);ok;ok
+add/delete layers;ok;ok
+Show /hide layers;ok;ok
+draw/delete all elements (polygons, polylines, markersâ€¦.);ok;ok
+zooming;ok;ok
+right clicks in layers, objects and maps;ok;ok
+menu buttons;ok;ok
+mapextension;ok;ok
+reload map;ok;ok
+expert mode;ok;ok
+load map;ok;ok
+create map;ok;ok
+dev tools;ok;ok
+export map;ok;ok
+launch imageJ;ok;ok
+Configure, download and install plugins automatically;ok;ok
+Tile layer;ok;ok
+Objects detection;ok;ok
+Holes detection;ok;ok
+create mosaic;ok;ok
+convert;ok;ok
+start program automatically;ok;ok
+imageJ quick autoinstall;ok;ok
+save workspace (as);ok;ok
+open workspace;ok;ok
+new workspace;ok;ok
+movin polygons;ok;ok
+clear all polygons;ok;ok
+edit elements;ok;ok
+modify shape;ok;ok
+rename elements;ok;ok
