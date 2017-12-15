@@ -1,4 +1,7 @@
-
+---
+layout: post
+title: Multi Map user guide
+---
 ### Getting started
 
 - ##### [Overview](pages/overview.md)
