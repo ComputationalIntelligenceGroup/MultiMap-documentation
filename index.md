@@ -38,7 +38,7 @@
 ### Extending MultiMap
 
 - ##### [My First Extension](pages/myfirstextension.md)
-- ##### [Second example](pages/secondexample.md)
+- ##### [](pages/secondexample.md)
 - ##### [electrongui API](https://gherardovarando.github.io/electrongui/API.html)
 
 
