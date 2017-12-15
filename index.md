@@ -44,5 +44,5 @@
 
 
 ### About
-- ##### [Authors](pages/Authors.md)
-- ##### [Acknowledgements](pages/Acknowledgements.md)
+- ##### [Authors](pages/authors.md)
+- ##### [Acknowledgements](pages/acknowledgements.md)

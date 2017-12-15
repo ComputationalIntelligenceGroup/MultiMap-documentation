@@ -12,7 +12,8 @@ ImageJExtension need a working Java runtime environment installed in the sistem,
 
 The application configurations, extensions and other files (e.g. the ImageJ installation) are located in a folder named `.multimap` in your home directory (in Linux it will be a hidden folder).
 
-If you experience some unresolvable bug at some point you can try a fresh re-install simply by removing the folder `.multimap` and lunching the app agian, the folder will be created and the basic extensions will be downloaded and installed.
+###### How to do a fresh install
+If you experience some unresolvable bug at some point you can try a fresh re-install simply by removing the folder `.multimap` and launching the app again, the folder will be created and the basic extensions will be downloaded and installed hopefully resolving the bug.
 
 ##### Remove the application
 
