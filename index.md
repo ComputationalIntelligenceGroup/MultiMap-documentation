@@ -1,42 +1,42 @@
 
 ### Getting started
 
-- ##### [Overview](_posts/overview.md)
+- ##### [Overview](pages/overview.md)
 
-- ##### [Install](_posts/install.md)
+- ##### [Install](pages/install.md)
 
-- ##### [Basics](_posts/basics.md)
+- ##### [Basics](pages/basics.md)
 
 ### Using MultiMap
 
-- ##### [Workspace](_posts/workspace.md)
+- ##### [Workspace](pages/workspace.md)
 
-- ##### [Tasks](_posts/tasks.md)
+- ##### [Tasks](pages/tasks.md)
 
-- ##### [Alerts](_posts/alerts.md)
+- ##### [Alerts](pages/alerts.md)
 
-- ##### [Extensions](_posts/extensions.md)
+- ##### [Extensions](pages/extensions.md)
 
-### [The Map Extension](_posts/mapextension.md)
-  - ###### [Description](_posts/mapextension.md#description)
+### [The Map Extension](pages/mapextension.md)
+  - ###### [Description](pages/mapextension.md#description)
 
-### [The ImageJ Extension](_posts/ImageJExtension.md)
-  - ###### [Install](_posts/ImageJExtension.md#install)
-  - ###### [Configure](_posts/ImageJExtension.md#configure)
-  - ###### [Create Tile Layer](_posts/ImageJExtension.md#create-tile-layer)
-  - ###### [Object detection](_posts/ImageJExtension.md#object-detection)
-  - ###### [Holes detection](_posts/ImageJExtension.md#holes-detection)
-  - ###### [Mosaic](_posts/ImageJExtension.md#mosaic)
-  - ###### [Issues](_posts/ImageJExtension.md#issues)
+### [The ImageJ Extension](pages/ImageJExtension.md)
+  - ###### [Install](pages/ImageJExtension.md#install)
+  - ###### [Configure](pages/ImageJExtension.md#configure)
+  - ###### [Create Tile Layer](pages/ImageJExtension.md#create-tile-layer)
+  - ###### [Object detection](pages/ImageJExtension.md#object-detection)
+  - ###### [Holes detection](pages/ImageJExtension.md#holes-detection)
+  - ###### [Mosaic](pages/ImageJExtension.md#mosaic)
+  - ###### [Issues](pages/ImageJExtension.md#issues)
 
 ### Extending MultiMap
 
-- ##### [My First Extension](_posts/myfirstextension.md)
+- ##### [My First Extension](pages/myfirstextension.md)
 - ##### []
 - ##### [electrongui API](https://gherardovarando.github.io/electrongui/API.html)
 
 
 
 ### About
-- ##### [Authors](_posts/Authors.md)
-- ##### [Acknowledgements](_posts/Acknowledgements.md)
+- ##### [Authors](pages/Authors.md)
+- ##### [Acknowledgements](pages/Acknowledgements.md)
