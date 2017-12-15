@@ -28,6 +28,16 @@ So lets require the `electrongui` module and export a class.
 ```
 //myextension.js
 
+const {GuiExtension} = require('electrongui')
 
+class MyExtension extends GuiExtension{
+  constructor(gui){
+    super(gui)
+  }
+}
+
+module.exports = MyExtension
 
 ```
+
+save `myextension.js` and try to load the extension from MultiMap.
