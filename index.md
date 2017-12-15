@@ -4,7 +4,7 @@
 
 - ##### [Install](pages/install.md)
 
-- ##### [Basics](pages/basics.md)
+- ##### [First run](pages/first.md)
 
 ### Using MultiMap
 
