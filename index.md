@@ -9,12 +9,16 @@
 
 ### Using MultiMap
 
-- ##### [Main menu](main-menu.md)
+- ##### [Workspace](workspace.md)
+
+- ##### [Tasks](tasks.md)
+
+- ##### [Alerts](alerts.md)
 
 - ##### [Extensions](extensions.md)
 
-### [The Map Extension](MapExtension.md)
-  - ###### [The Map Extension](MapExtension.md#)
+### [The Map Extension](mapextension.md)
+  - ###### [Description](mapextension.md#description)
 
 ### [The ImageJ Extension](ImageJExtension.md)
   - ###### [Install](ImageJExtension.md#install)
