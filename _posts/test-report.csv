@@ -1,0 +1,33 @@
+﻿;Linux;Windows
+ load extensions manually;ok;ok
+ load extensions (npm);ok;ok
+add/delete layers;ok;ok
+Show /hide layers;ok;ok
+draw/delete all elements (polygons, polylines, markersâ€¦.);ok;ok
+zooming;ok;ok
+right clicks in layers, objects and maps;ok;ok
+menu buttons;ok;ok
+mapextension;ok;ok
+reload map;ok;ok
+expert mode;ok;ok
+load map;ok;ok
+create map;ok;ok
+dev tools;ok;ok
+export map;ok;ok
+launch imageJ;ok;ok
+Configure, download and install plugins automatically;ok;ok
+Tile layer;ok;ok
+Objects detection;ok;ok
+Holes detection;ok;ok
+create mosaic;ok;ok
+convert;ok;ok
+start program automatically;ok;ok
+imageJ quick autoinstall;ok;ok
+save workspace (as);ok;ok
+open workspace;ok;ok
+new workspace;ok;ok
+movin polygons;ok;ok
+clear all polygons;ok;ok
+edit elements;ok;ok
+modify shape;ok;ok
+rename elements;ok;ok
