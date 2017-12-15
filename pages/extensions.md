@@ -1,6 +1,6 @@
 ### Extensions
 
-MultiMap is a modular tool (:heavy_check_mark:) which can be expanded through different extensions.
+MultiMap is a modular tool which can be expanded through different extensions.
 MultiMap is built on top of [electrongui](https://github.com/gherardovarando/electrongui) so every electrongui extension will work.
 
 When the application starts for the first time it will install automatically the following extensions:
@@ -34,4 +34,11 @@ To toggle the active/deactive state of an extension just click on its name in th
 
 #### Installed and active extension registry
 
-MultiMap keeps two registries on disk with the installed extensions and the active ones, so that every times you open the application it will look exaclty how you left it (good uh?:open_mouth:).
+MultiMap keeps two registries on disk with the installed extensions and the active ones, so that every times you open the application it will look exactly how you left it (good uh?:open_mouth:).
+
+Sometimes however, the system will not work perfectly and on opening the application you will find that some extensions you had previously installed are missing. No panic:grimacing: just try to activate the missing extension or in the worst scenario reinstall it, hopefully the workspace data will be retrieved.
+
+
+#### Updating extensions
+
+To update an extension just reinstall it, a fresh installation is always forced thus you can be sure to install always the last version.

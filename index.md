@@ -15,9 +15,16 @@
 - ##### [Alerts](pages/alerts.md)
 
 - ##### [Extensions](pages/extensions.md)
+  - ###### [Installing extensions](pages/extensions.md#installing-extensions)
+  - ###### [Activate extensions](pages/extensions.md#activate-extensions)
 
 ### [The Map Extension](pages/mapextension.md)
   - ###### [Description](pages/mapextension.md#description)
+  - ###### [What is a map](pages/mapextension.md#what-is-a-map)
+  - ###### [Load a map](pages/mapextension.md#load-a-map)
+  - ###### [Create a map](pages/mapextension.md#create-a-map)
+  - ###### [Add layers](pages/mapextension.md#add-layers)
+  - ###### [Export the map](pages/mapextension.md#export-the-map)
 
 ### [The ImageJ Extension](pages/ImageJExtension.md)
   - ###### [Install](pages/ImageJExtension.md#install)
@@ -31,7 +38,7 @@
 ### Extending MultiMap
 
 - ##### [My First Extension](pages/myfirstextension.md)
-- ##### []
+- ##### [Second example](pages/secondexample.md)
 - ##### [electrongui API](https://gherardovarando.github.io/electrongui/API.html)
 
 
