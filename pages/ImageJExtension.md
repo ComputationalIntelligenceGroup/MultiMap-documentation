@@ -33,34 +33,34 @@ ImageJ user interface can be launched through "Launch ImageJ" menu entry. This t
 
 ImageJ JVM memory settings (heap and stack) can be configured. By default, Java heap memory is set to 70% of total system memory, and Java stack memory is set to 515MB.
 
-##### Create Tile Layer
+##### Create a Tile Layer
 
-Map Tools is a toolbox for creating MultiMap maps. This toolbox is an ImageJ plugin that requires an image or folder with images and the following parameters as input:
+It is possible to create a TileLayer that can then added to a map using ImageJ plugin [MapTools](https://github.com/ComputationalIntelligenceGroup/Map_tools), the plugin is installed automatically and can be used directly from MultiMap.
 
-    Map name (default: "map").
+Just select `ImageJ > Create TileLayer > from image` and select an image (jpg, png, tiff or an other format supported by ImageJ).
+MultiMap will then read the metadata of the image (it can take some seconds for very big images or complicated formats) and display a modal where you need to enter the following parameter:
+
+    Map name (default: "map") this is the layer name.
     Pixel tiles dimension (default: 256).
     Maximum zoom (default: 5).
-    Use all slice (default: no): if source image has more than one slice and this option is checked, a map for every slice will be created.
-    Merge all slices (default: no): if source image has more than one slice and this option is checked, a max intensity projection (ImageJ ZProjection) of all slices will be performed and the output will be used as input for map creation.
+    Use all slice (default: no): if source image has more than one slice and this option is checked, a multilevel tilelayer will be created.
+    Merge all slices (default: no): if source image has more than one slice and this option is checked, a max intensity projection (ImageJ ZProjection) of all slices will be performed and the output will be used as input for layer creation.
     Slice used (default: 1): if source image has more than one slice, this option allows to choose what slice will be used as input for map creation.
     Output folder: the path where output map will be saved.
 
-
-###### From image
-
-When using this option, a dialog will be opened to choose source image, then previously defined parameters can be configured. When this task finishes, the layer can be added to a map in the workspace.
 
 ###### From folder
 
 This option is intended to create a layer from a big image which is splitted in a small collection of images (a mosaic). Each image name must contain its X and Y coordinates in the original image. For example, partial_image_X0_Y0.tiff will be the image in the left upper corner.
 
-When using this option, a dialog will be opened to choose the left upper corner image, then MultiMap needs to combine all images and the user will be asked to configure previously defined parameters and three additional image combination parameters:
+When using this option, a dialog will be opened to choose the left upper corner image, then MultiMap needs to combine all images and you will be asked to set the parameter as above plus three image combination parameters:
 
     Initial slice (default: 1).
     Last slice (default: 1).
-    Scale (default: 1.000): the combined image scale, this parameter goes from 0 to 1 (original size).
+    Scale (default: 1.000): the combined image scale, this parameter goes from 0 to 1 (original size) Use this parameter to be able to fit the scaled image in memory.
 
 When this task finishes the layer can be added to a map in the workspace.
+Remember that for now MapTools plugin need to load all the image in memory so use the Scale parameter to be sure to load just a scaled version of very large maps.
 
 ##### Object Detection
 
