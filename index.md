@@ -39,8 +39,8 @@
 
 - ##### [My First Extension](pages/myfirstextension.md)
 - ##### [](pages/secondexample.md)
+- ##### [Extension Manager](pages/extensionmanager.md)
 - ##### [electrongui API](https://gherardovarando.github.io/electrongui/API.html)
-
 
 
 ### About
