@@ -76,10 +76,11 @@ class MyExtension extends GuiExtension {
 module.exports = MyExtension
 ```
 
-We pass an oject of options to the `super` constructor (see [GuiExtension](https://gherardovarando.github.io/electrongui/API.html#guiextension)) to create a menu entry in the application, the menu is not appended until we call `this.appendMenu()` in the `activate` method.
+We pass an object of options to the `super` constructor (see [GuiExtension](https://gherardovarando.github.io/electrongui/API.html#guiextension)) to create a menu entry in the application, the menu is not appended until we call `this.appendMenu()` in the `activate` method.
 
 Moreover in the `activate` method we create an html element (using [`util.div`](https://gherardovarando.github.io/electrongui/API.html#utildivclassname-text)) and we append it to the extension element (GuiExtension extends [ToggleElement](https://gherardovarando.github.io/electrongui/API.html#toggleelement)).
 
 Remember it is important to always call the `super.activate()` method.
 
 You can save the `myextension.js` file and load again the extension from MultiMap.
+Now activating the extension will create a new menu from where you can toggle the extension.
