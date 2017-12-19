@@ -84,3 +84,46 @@ Remember it is important to always call the `super.activate()` method.
 
 You can save the `myextension.js` file and load again the extension from MultiMap.
 Now activating the extension will create a new menu from where you can toggle the extension.
+
+
+##### Buttons
+
+Some examples on how to add buttons.
+
+###### Toggle Button
+We will see now how to add a button to toggle the visibility of our extension instead of using the menu as in the previous example.
+
+To do so we use the [`.addToggleButton`](https://gherardovarando.github.io/electrongui/API.html#addtogglebuttonoptions) method of `GuiExtension` class (inherited from `ToggleElement`).
+The `id`, `groupId`, and `buttonsContainer` properties of the options passed to the `.addToggleButton` method are compulsory to make the toggle button works properly.
+The `icon` property can be whatever [FontAwesome](http://fontawesome.io/icons/) or [PhotonKit](http://photonkit.com/components/) icon class, aletrnatively you can use a `text` property to specify the label of the toggle button.
+See electrongui doc for more options of the [`addToggleButton`](https://gherardovarando.github.io/electrongui/API.html#addtogglebuttonoptions) method.
+
+
+```
+//myextension.js
+const {
+  GuiExtension,
+  util
+} = require('electrongui')
+
+class MyExtension extends GuiExtension {
+
+  activate() {
+    let pane = util.div('pane padded', 'This is my first extension')
+    this.appendChild(pane)
+    this.addToggleButton({
+      id: `${this.constructor.name}_togglebutton`,
+      groupId: `${this.constructor.name}_button_group`,
+      buttonsContainer: this.gui.header.actionsContainer,
+      icon: 'fa fa-space-shuttle'
+      //text: 'Toggle it!!!'
+    })
+    super.activate()
+  }
+
+  deactivate(){
+    this.removeToggleButton(`${this.constructor.name}_togglebutton`)
+  }
+}
+module.exports = MyExtension
+```
