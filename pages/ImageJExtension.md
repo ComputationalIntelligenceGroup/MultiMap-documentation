@@ -108,5 +108,3 @@ Each tile name will be the original image name plus its X and Y position, e.g. o
 The result of creating a mosaic with an image is shown in the following image:
 
 ![picture](images/mosaic.png)
-
-#### Issues

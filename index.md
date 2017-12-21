@@ -6,6 +6,8 @@
 
 - ##### [First run](pages/first.md)
 
+- ##### [The super short tutorial :rocket:](pages/shorttutorial.md)
+
 ### Using MultiMap
 
 - ##### [Workspace](pages/workspace.md)
@@ -34,7 +36,6 @@
   - ###### [Object detection](pages/ImageJExtension.md#object-detection)
   - ###### [Holes detection](pages/ImageJExtension.md#holes-detection)
   - ###### [Mosaic](pages/ImageJExtension.md#mosaic)
-  - ###### [Issues](pages/ImageJExtension.md#issues)
 
 ### Extending MultiMap
 
