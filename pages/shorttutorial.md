@@ -52,7 +52,7 @@ The fastest way to learn how to use MultiMap via examples.
   MultiMap will silently lunch an Imagej process and start building the layer. You can see the progress in the Tasks Manager (the upper-right button).
   Let's now wait until the task finish.
 
-  ####### Add the layer to the map
+- ###### Add the layer to the map
 
   We can now add the layer to the map we previously created.
 
