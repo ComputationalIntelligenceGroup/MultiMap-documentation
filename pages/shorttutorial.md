@@ -18,7 +18,7 @@ The fastest way to learn how to use MultiMap via examples.
 
   :warning: **You need a working internet connection** :warning:
 
-- ###### Create your first map
+- ##### Create your first map
 
   1. Click on the map button in the top left of the application, this will toggle the MapExtension and show the main map pane.
 
@@ -28,7 +28,7 @@ The fastest way to learn how to use MultiMap via examples.
 
   You have done it! :smile: Your first map should appers in the maps' list on the left of the pane.
 
-- ###### Let's make a layer
+- ##### Let's make a layer
 
   TileLayers are the core of every map, they represent the graphical informations. To create a TileLayer we will use the ImageJ extension.
   First of all let's check that ImageJ can work properly with the application.
@@ -52,7 +52,7 @@ The fastest way to learn how to use MultiMap via examples.
   MultiMap will silently lunch an Imagej process and start building the layer. You can see the progress in the Tasks Manager (the upper-right button).
   Let's now wait until the task finish.
 
-- ###### Add the layer to the map
+- ##### Add the layer to the map
 
   We can now add the layer to the map we previously created.
 
