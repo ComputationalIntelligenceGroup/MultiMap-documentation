@@ -26,16 +26,16 @@ The fastest way to learn how to use MultiMap via examples.
 
   3. Chose a fancy name for your first map.
 
-  You have done it! :smile: Your first map should appera in the maps' list on the left of the pane.
+  You have done it! :smile: Your first map should appers in the maps' list on the left of the pane.
 
 - ###### Let's make a layer
 
   TileLayers are the core of every map, they represent the graphical informations. To create a TileLayer we will use the ImageJ extension.
   First of all let's check that ImageJ can work properly with the application.
 
-  1. If you didn't already activate ImageJExtension
-  2. From the ImageJ menu select `Launch ImageJ`
-  3. If ImageJ opens (can take 1/2 sec) you are ready to go, otherwise reed ImageJExtension [doc](ImageJExtension.md)
+  1. If you didn't already activate ImageJExtension do it now.
+  2. From the ImageJ menu select `Launch ImageJ`.
+  3. If ImageJ opens (can take 1/2 sec) you are ready to go, otherwise reed ImageJExtension [doc](ImageJExtension.md).
 
   Now we need an image to work with, you can use whatever image for this step but let's use [this image](https://www.goodfreephotos.com/united-states/wisconsin/wildcat-mountain-state-park/wisconsin-wildcat-mountain-state-park-the-starry-skies.jpg.php).
 
@@ -44,4 +44,21 @@ The fastest way to learn how to use MultiMap via examples.
 
   Now, (finally!!) we can create our layer.
 
-  1. Select the menu entry `ImageJ > Create TileLayer > from Image` and select the image you downloaded in the `Test_Map` folder (or wherever you placed it, we told you to be organized...:expressionless:)
+  1. Select the menu entry `ImageJ > Create TileLayer > from Image` and select the image you downloaded in the `Test_Map` folder (or wherever you placed it, we told you to be organized...:expressionless:).
+  2. Give a name to your layer, for example `star_layer`.
+  3. Select the output folder `Test_Map` using the lower-left button.
+  4. Create.
+
+  MultiMap will silently lunch an Imagej process and start building the layer. You can see the progress in the Tasks Manager (the upper-right button).
+  Let's now wait until the task finish.
+
+  ####### Add the layer to the map
+
+  We can now add the layer to the map we previously created.
+
+  1. Select the map (a blue mark is shown on the left of the name if the map is selected)
+  2. Press the :heavy_plus_sign: and select `Add layer > File`.
+  3. Navigate to `Test_Map` folder, a folder named `star_layer`, inside you can find a file named `star_layer.json` open it.
+  4. Confirm that you want to add the layer.
+
+  Now you should see the layer appearing in the map.
